@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IKEBOTA 珍奇植物・グッズ</title>
+<meta name="description" content="珍奇植物と、植物をモチーフにしたコースター・キーホルダー・時計のショップ IKEBOTA。購入はメルカリから。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@700;800;900&family=Shippori+Mincho+B1:wght@500;800&family=Zen+Maru+Gothic:wght@500;700;900&display=swap" rel="stylesheet">
+<style>
+:root{--forest:#1F3A29;--sage:#A9C4A0;--mint:#E3EDDC;--cream:#FBEBDD;--paper:#FFF8F0;--ink:#15130F;--muted:#4A3F35}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{background:var(--cream);color:var(--ink);font-family:"Zen Maru Gothic",system-ui,sans-serif;overflow-x:hidden}
+a{color:inherit;text-decoration:none}
+h1,h2,h3,p{margin:0}
+img{display:block;max-width:100%}
+.disp{font-family:"Rubik",sans-serif;font-weight:900;letter-spacing:-.02em}
+.mincho{font-family:"Shippori Mincho B1",serif;font-weight:800}
+.wrap{max-width:1180px;margin:0 auto;padding:0 32px}
+.label{font-family:"Rubik",sans-serif;font-weight:800;letter-spacing:.16em;font-size:12px;text-transform:uppercase}
+.btn{display:inline-block;background:var(--ink);color:var(--cream);padding:18px 36px;border-radius:999px;font-weight:700;font-size:16px;transition:transform .2s}
+.btn:hover{transform:translateY(-3px)}
+.btn-light{background:var(--cream);color:var(--ink)}
+.btn-sage{background:var(--sage);color:var(--ink)}
+.frame{background:var(--paper);padding:14px 14px 18px;box-shadow:0 18px 40px rgba(21,19,15,.22);transition:transform .35s}
+.frame:hover{transform:translateY(-6px) rotate(0deg) !important}
+.tab{border-radius:999px;padding:12px 22px;font-weight:700;font-size:15px;border:2px solid var(--ink);cursor:pointer;background:transparent;color:var(--ink);font-family:inherit}
+.tab.on{background:var(--ink);color:var(--cream)}
+.spec{background:var(--paper);border-radius:28px;overflow:hidden;display:flex;flex-direction:column;flex:1 1 280px;max-width:360px;min-width:0;transition:transform .35s,box-shadow .35s;box-shadow:0 6px 0 var(--ink);border:2px solid var(--ink)}
+.spec:hover{transform:translateY(-8px);box-shadow:0 14px 0 var(--ink)}
+.spec[hidden]{display:none}
+.ticker{overflow:hidden;white-space:nowrap;background:var(--sage);padding:18px 0;border-top:2px solid var(--ink);border-bottom:2px solid var(--ink)}
+.ticker-track{display:inline-block;animation:slide 26s linear infinite;font-family:"Rubik",sans-serif;font-weight:900;font-size:24px;letter-spacing:.05em}
+@keyframes slide{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+.step{display:flex;gap:18px;align-items:center;background:var(--paper);border:2px solid var(--ink);border-radius:22px;padding:20px 24px}
+.num{width:48px;height:48px;border-radius:50%;background:var(--sage);display:flex;align-items:center;justify-content:center;font-family:"Rubik",sans-serif;font-weight:900;font-size:18px;flex-shrink:0;border:2px solid var(--ink)}
+.row{display:flex;flex-wrap:wrap;gap:24px}
+.grow{flex:1 1 360px;min-width:0}
+@media (max-width:720px){
+  .hero-h{font-size:52px !important}
+  .sec-h{font-size:36px !important}
+  .wrap{padding:0 20px}
+  .collage{height:360px !important}
+}
+</style>
+</head>
+<body>
+
+<header class="wrap" style="display:flex;justify-content:space-between;align-items:center;padding:24px 32px">
+  <img src="images/logo.png" alt="IKEBOTA" style="height:44px;width:auto">
+  <a class="btn" style="padding:12px 24px;font-size:14px" href="https://jp.mercari.com/user/profile/646467384" target="_blank" rel="noopener">メルカリで見る</a>
+</header>
+
+<!-- HERO -->
+<section style="background:var(--forest);color:var(--cream);padding:40px 0 120px;position:relative;overflow:hidden">
+  <div class="wrap row" style="gap:56px;align-items:center">
+    <div class="grow" style="flex:1 1 460px;display:flex;flex-direction:column;gap:28px">
+      <span class="label" style="color:var(--sage)">Rare Plant Specimen Shop</span>
+      <h1 class="mincho hero-h" style="font-size:84px;line-height:1.2">植物を、<br>暮らしの<br><span style="color:var(--sage)">標本</span>に。</h1>
+      <p style="font-size:17px;line-height:2.1;max-width:460px;color:var(--mint)">珍奇植物と、その姿を写し取ったコースター・キーホルダー・時計。ひとつずつ表情の違う“緑の標本”を、日常に迎えてみませんか。</p>
+      <div style="display:flex;flex-wrap:wrap;gap:16px;align-items:center">
+        <a class="btn btn-light" href="https://jp.mercari.com/user/profile/646467384" target="_blank" rel="noopener">メルカリでショップを見る</a>
+        <a class="label" style="color:var(--cream);border-bottom:2px solid var(--cream);padding-bottom:4px" href="#shop">商品を見る</a>
+      </div>
+    </div>
+
+    <div class="collage" style="flex:1 1 420px;min-width:0;height:520px;position:relative">
+      <div class="frame" style="position:absolute;left:0;top:30px;width:52%;transform:rotate(-6deg)">
+        <img src="images/p01.jpg" alt="珍奇植物" style="width:100%;aspect-ratio:4/5;object-fit:cover">
+      </div>
+      <div class="frame" style="position:absolute;right:0;top:0;width:50%;transform:rotate(5deg)">
+        <img src="images/p03.jpg" alt="アガベ チタノタ 置き型時計" style="width:100%;aspect-ratio:4/5;object-fit:cover">
+      </div>
+      <div class="frame" style="position:absolute;left:18%;bottom:0;width:46%;transform:rotate(-2deg)">
+        <img src="images/p09.jpg" alt="グラキリス 休眠中 キーホルダー" style="width:100%;aspect-ratio:1/1;object-fit:cover">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TICKER -->
+<div class="ticker" aria-hidden="true">
+  <span class="ticker-track">珍奇植物 ✦ SPECIMEN ✦ コースター ✦ キーホルダー ✦ 置き時計 ✦ 珍奇植物 ✦ SPECIMEN ✦ コースター ✦ キーホルダー ✦ 置き時計 ✦ </span>
+</div>
+
+<!-- CONCEPT -->
+<section class="wrap row" style="padding:120px 32px 60px;gap:60px;align-items:flex-start">
+  <div class="grow" style="display:flex;flex-direction:column;gap:22px">
+    <span class="label" style="color:var(--forest)">Concept</span>
+    <h2 class="mincho sec-h" style="font-size:52px;line-height:1.35">図鑑のように、<br>一点ずつ迎える。</h2>
+  </div>
+  <div class="grow" style="display:flex;flex-direction:column;gap:28px;padding-top:8px">
+    <p style="font-size:18px;line-height:2.1">IKEBOTAは、珍奇植物を“標本”として扱うショップです。姿かたちに個性のある植物を選び、その魅力を形にしたグッズも一緒に並べています。</p>
+    <p style="font-size:16px;line-height:2.1;color:var(--muted)">植物が好きな人にも、まだ植物に詳しくない人にも。部屋の一角に置いたり、鞄に添えたり。小さな緑が、毎日の景色を少しだけ変えてくれます。</p>
+  </div>
+</section>
+
+<!-- SHOP -->
+<section id="shop" class="wrap" style="padding:80px 32px 110px;display:flex;flex-direction:column;gap:44px">
+  <div class="row" style="justify-content:space-between;align-items:flex-end">
+    <div style="display:flex;flex-direction:column;gap:14px">
+      <span class="label" style="color:var(--forest)">Specimen Archive</span>
+      <h2 class="mincho sec-h" style="font-size:52px">取り扱いアイテム</h2>
+    </div>
+    <div style="display:flex;flex-wrap:wrap;gap:12px" role="tablist" aria-label="カテゴリで絞り込み">
+      <button class="tab on" data-filter="all" role="tab">すべて</button>
+      <button class="tab" data-filter="plant" role="tab">珍奇植物</button>
+      <button class="tab" data-filter="coaster" role="tab">コースター</button>
+      <button class="tab" data-filter="key" role="tab">キーホルダー</button>
+      <button class="tab" data-filter="interior" role="tab">インテリア</button>
+    </div>
+  </div>
+
+  <div style="display:flex;flex-wrap:wrap;gap:32px">
+
+    <article class="spec" data-cat="plant">
+      <div style="position:relative;background:var(--ink)">
+        <img src="images/p01.jpg" alt="珍奇植物 三頭立ち" style="width:100%;aspect-ratio:4/5;object-fit:cover">
+        <span class="label" style="position:absolute;left:18px;top:18px;background:var(--cream);padding:8px 12px;border-radius:999px;border:2px solid var(--ink)">No.01</span>
+      </div>
+      <div style="padding:26px 26px 30px;display:flex;flex-direction:column;gap:12px;flex:1">
+        <span class="label" style="color:#2F5A3C">SPECIMEN 01</span>
+        <h3 class="mincho" style="font-size:24px;line-height:1.4">珍奇植物 三頭立ち</h3>
+        <p style="line-height:1.9;font-size:15px;color:var(--muted)">鉢の中で三本の幹がすっと伸びる、個性的な姿。窓辺に置くと影まで表情に。</p>
+      </div>
+    </article>
+
+    <article class="spec" data-cat="plant">
+      <div style="position:relative;background:var(--ink)">
+        <img src="images/p02.jpg" alt="珍奇植物 ころりと丸い" style="width:100%;aspect-ratio:4/5;object-fit:cover">
+        <span class="label" style="position:absolute;left:18px;top:18px;background:var(--cream);padding:8px 12px;border-radius:999px;border:2px solid var(--ink)">No.02</span>
+      </div>
+      <div style="padding:26px 26px 30px;display:flex;flex-direction:column;gap:12px;flex:1">
+        <span class="label" style="color:#2F5A3C">SPECIMEN 02</span>
+        <h3 class="mincho" style="font-size:24px;line-height:1.4">珍奇植物 ころりと丸い</h3>
+        <p style="line-height:1.9;font-size:15px;color:var(--muted)">手のひらに乗るほどの丸い姿。手に取るとずっしりとした存在感があります。</p>
+      </div>
+    </article>
+
+    <article class="spec" data-cat="plant">
+      <div style="position:relative;background:var(--ink)">
+        <img src="images/p04.jpg" alt="珍奇植物 透明鉢のしずく" style="width:100%;aspect-ratio:4/5;object-fit:cover">
+        <span class="label" style="position:absolute;left:18px;top:18px;background:var(--cream);padding:8px 12px;border-radius:999px;border:2px solid var(--ink)">No.03</span>
+      </div>
+      <div style="padding:26px 26px 30px;display:flex;flex-direction:column;gap:12px;flex:1">
+        <span class="label" style="color:#2F5A3C">SPECIMEN 03</span>
+        <h3 class="mincho" style="font-size:24px;line-height:1.4">珍奇植物 透明鉢のしずく</h3>
+        <p style="line-height:1.9;font-size:15px;color:var(--muted)">透明な鉢から、ゆるやかに広がる幹と葉。根の様子まで楽しめる一鉢です。</p>
+      </div>
+    </article>
+
+    <article class="spec" data-cat="interior">
+      <div style="position:relative;background:var(--ink)">
+        <img src="images/p03.jpg" alt="アガベ チタノタ 置き型時計" style="width:100%;aspect-ratio:4/5;object-fit:cover">
+        <span class="label" style="position:absolute;left:18px;top:18px;background:var(--cream);padding:8px 12px;border-radius:999px;border:2px solid var(--ink)">No.04</span>
+      </div>
+      <div style="padding:26px 26px 30px;display:flex;flex-direction:column;gap:12px;flex:1">
+        <span class="label" style="color:#2F5A3C">AGAVE TITANOTA</span>
+        <h3 class="mincho" style="font-size:24px;line-height:1.4">アガベ チタノタ 置き型時計</h3>
+        <p style="line-height:1.9;font-size:15px;color:var(--muted)">アガベ チタノタの立体的なフォルムを、そのまま時計に。机の上がひとつの標本室に。</p>
+      </div>
+    </article>
+
+    <article class="spec" data-cat="key">
+      <div style="position:relative;background:var(--ink)">
+        <img src="images/p05.jpg" alt="グラキリス ストラップ フィギュア" style="width:100%;aspect-ratio:4/5;object-fit:cover">
+        <span class="label" style="position:absolute;left:18px;top:18px;background:var(--cream);padding:8px 12px;border-radius:999px;border:2px solid var(--ink)">No.05</span>
+      </div>
+      <div style="padding:26px 26px 30px;display:flex;flex-direction:column;gap:12px;flex:1">
+        <span class="label" style="color:#2F5A3C">GRACILIS</span>
+        <h3 class="mincho" style="font-size:24px;line-height:1.4">グラキリス ストラップ フィギュア</h3>
+        <p style="line-height:1.9;font-size:15px;color:var(--muted)">指を広げたような枝ぶりが愛らしいフィギュア。鞄やポーチに、緑の相棒を。</p>
+      </div>
+    </article>
+
+    <article class="spec" data-cat="coaster">
+      <div style="position:relative;background:var(--ink)">
+        <img src="images/p06.jpg" alt="アガベ ホリダ コースター" style="width:100%;aspect-ratio:4/5;object-fit:cover">
+        <span class="label" style="position:absolute;left:18px;top:18px;background:var(--cream);padding:8px 12px;border-radius:999px;border:2px solid var(--ink)">No.06</span>
+      </div>
+      <div style="padding:26px 26px 30px;display:flex;flex-direction:column;gap:12px;flex:1">
+        <span class="label" style="color:#2F5A3C">AGAVE HORRIDA</span>
+        <h3 class="mincho" style="font-size:24px;line-height:1.4">アガベ ホリダ コースター</h3>
+        <p style="line-height:1.9;font-size:15px;color:var(--muted)">刺のある葉を精密に刻んだコースター。コルクの質感が、飲み物の時間を落ち着かせます。</p>
+      </div>
+    </article>
+
+    <article class="spec" data-cat="coaster">
+      <div style="position:relative;background:var(--ink)">
+        <img src="images/p07.jpg" alt="ビカクシダ ウィリンキー コースター" style="width:100%;aspect-ratio:4/5;object-fit:cover">
+        <span class="label" style="position:absolute;left:18px;top:18px;background:var(--cream);padding:8px 12px;border-radius:999px;border:2px solid var(--ink)">No.07</span>
+      </div>
+      <div style="padding:26px 26px 30px;display:flex;flex-direction:column;gap:12px;flex:1">
+        <span class="label" style="color:#2F5A3C">PLATYCERIUM WILLINCKII</span>
+        <h3 class="mincho" style="font-size:24px;line-height:1.4">ビカクシダ ウィリンキー コースター</h3>
+        <p style="line-height:1.9;font-size:15px;color:var(--muted)">ビカクシダの複雑な葉姿を描いたコースター。テーブルに、ひとつの植物画を。</p>
+      </div>
+    </article>
+
+    <article class="spec" data-cat="key">
+      <div style="position:relative;background:var(--ink)">
+        <img src="images/p08.jpg" alt="ビカクシダ リドレイ キーホルダー" style="width:100%;aspect-ratio:4/5;object-fit:cover">
+        <span class="label" style="position:absolute;left:18px;top:18px;background:var(--cream);padding:8px 12px;border-radius:999px;border:2px solid var(--ink)">No.08</span>
+      </div>
+      <div style="padding:26px 26px 30px;display:flex;flex-direction:column;gap:12px;flex:1">
+        <span class="label" style="color:#2F5A3C">PLATYCERIUM RIDLEYI</span>
+        <h3 class="mincho" style="font-size:24px;line-height:1.4">ビカクシダ リドレイ キーホルダー</h3>
+        <p style="line-height:1.9;font-size:15px;color:var(--muted)">木のぬくもりに刻んだ、ビカクシダ リドレイ。手の中で転がすたびに、緑を思い出せます。</p>
+      </div>
+    </article>
+
+    <article class="spec" data-cat="key">
+      <div style="position:relative;background:var(--ink)">
+        <img src="images/p09.jpg" alt="グラキリス 休眠中 キーホルダー" style="width:100%;aspect-ratio:4/5;object-fit:cover">
+        <span class="label" style="position:absolute;left:18px;top:18px;background:var(--cream);padding:8px 12px;border-radius:999px;border:2px solid var(--ink)">No.09</span>
+      </div>
+      <div style="padding:26px 26px 30px;display:flex;flex-direction:column;gap:12px;flex:1">
+        <span class="label" style="color:#2F5A3C">DORMANT</span>
+        <h3 class="mincho" style="font-size:24px;line-height:1.4">グラキリス 休眠中 キーホルダー</h3>
+        <p style="line-height:1.9;font-size:15px;color:var(--muted)">月と雲をあしらった、休眠中のグラキリス。眠りの季節も、そばに置いて。</p>
+      </div>
+    </article>
+
+  </div>
+  <p style="font-size:14px;color:#6B5E50">※価格・在庫はメルカリのショップページでご確認ください。</p>
+</section>
+
+<!-- PICK UP -->
+<section style="background:var(--ink);color:var(--cream);padding:110px 0;overflow:hidden">
+  <div class="wrap row" style="gap:60px;align-items:center">
+    <div class="grow" style="display:flex;justify-content:center">
+      <div class="frame" style="transform:rotate(-3deg);max-width:480px;width:100%;background:var(--cream)">
+        <img src="images/p06.jpg" alt="アガベ ホリダ コースター" style="width:100%;aspect-ratio:1/1;object-fit:cover">
+      </div>
+    </div>
+    <div class="grow" style="display:flex;flex-direction:column;gap:24px">
+      <span class="label" style="color:var(--sage)">Pick Up</span>
+      <h2 class="mincho sec-h" style="font-size:48px;line-height:1.35">飲み物を置くたびに、<br>植物の気配が広がる。</h2>
+      <p style="line-height:2.1;color:var(--mint)">植物の姿をあしらったコースターは、テーブルの上の小さな標本。コーヒーの時間に、ふと目が合う緑を。</p>
+      <div><a class="btn btn-sage" href="https://jp.mercari.com/user/profile/646467384" target="_blank" rel="noopener">メルカリで探す</a></div>
+    </div>
+  </div>
+</section>
+
+<!-- HOW TO BUY -->
+<section style="padding:110px 0">
+  <div class="wrap row" style="gap:60px">
+    <div class="grow" style="display:flex;flex-direction:column;gap:22px">
+      <span class="label" style="color:var(--forest)">How to Buy</span>
+      <h2 class="mincho sec-h" style="font-size:48px;line-height:1.35">ご購入はメルカリで</h2>
+      <p style="line-height:2.1">商品の購入は、メルカリのショップから行えます。気になる一点を見つけたら、そのまま購入手続きへ。</p>
+      <div><a class="btn" style="background:var(--forest);color:var(--cream)" href="https://jp.mercari.com/user/profile/646467384" target="_blank" rel="noopener">メルカリで購入する</a></div>
+    </div>
+    <div class="grow" style="display:flex;flex-direction:column;gap:18px;justify-content:center">
+      <div class="step"><span class="num">1</span><p style="line-height:1.7;font-weight:700">ショップページを開く</p></div>
+      <div class="step"><span class="num">2</span><p style="line-height:1.7;font-weight:700">気になる商品を選ぶ</p></div>
+      <div class="step"><span class="num">3</span><p style="line-height:1.7;font-weight:700">メルカリの購入手続きで注文</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- INSTAGRAM -->
+<section style="background:var(--sage);padding:100px 0;border-top:2px solid var(--ink);border-bottom:2px solid var(--ink)">
+  <div class="wrap row" style="gap:36px;align-items:center;justify-content:space-between">
+    <div style="display:flex;flex-direction:column;gap:16px">
+      <span class="label">Instagram</span>
+      <h2 class="mincho sec-h" style="font-size:52px;line-height:1.35">日々の標本を、<br>Instagramで。</h2>
+      <p style="font-weight:700;font-size:18px">@ikebotaa</p>
+    </div>
+    <a class="btn" style="padding:22px 44px" href="https://www.instagram.com/ikebotaa" target="_blank" rel="noopener">Instagramを見る</a>
+  </div>
+</section>
+
+<footer class="wrap" style="padding:44px 32px;display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:16px">
+  <img src="images/logo.png" alt="IKEBOTA" style="height:36px;width:auto">
+  <span style="font-size:14px">© IKEBOTA</span>
+</footer>
+
+<script>
+  // カテゴリで商品を絞り込む
+  (function () {
+    var tabs = document.querySelectorAll('.tab');
+    var items = document.querySelectorAll('.spec');
+    tabs.forEach(function (tab) {
+      tab.addEventListener('click', function () {
+        var f = tab.getAttribute('data-filter');
+        tabs.forEach(function (t) { t.classList.toggle('on', t === tab); });
+        items.forEach(function (item) {
+          item.hidden = !(f === 'all' || item.getAttribute('data-cat') === f);
+        });
+      });
+    });
+  })();
+</script>
+</body>
+</html>
